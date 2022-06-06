@@ -1,0 +1,35 @@
+Step1 : git init
+-> Khởi tạo repo dưới local
+        
+        git status
+-> Xem trạng thái hiện tại 
+
+Step2 : git checkout -b "Ten_nhanh_moi"
+-> tạo nhánh mới với tên tự định nghĩa
+
+step3: comit code
+       -git add filename -> add từng file một
+       -git add . -> add tất cả các file
+       -git commit -m "Message" 
+       -git log --oneline -> xem các commit đã viết
+
+step4: Add remote 
+       - git remote add origin link_trên_git_hub
+       
+       -git remote -v xem trạng thái add 
+
+Step5: Push origin
+       - git push origin Nhánh 
+=>>>KẾT THÚC MỘT TASK
+*CÁC CÂU LỆNH GIT CƠ BẢN
+  git branch -d NAM_BRANCH -> Xóa một nhánh 
+  git branch -> Xem danh sách nhánh 
+  git checkout -b tên-nhanh -> tạo nhánh mới và chuyển sang nhánh đó 
+  git checkout tên_nhanh -> chuyển sang nhánh khác
+  git remote add tên_remote link_remote -> Thêm mới một remote
+  
+  git push origin tên_nhánh -> đẩy code lên nhánh 
+  git pull origin tên_nhánh -> pull code mới nhất của nhánh đó 
+
+***Lưu ý :
+1.Lỗi repository not found -> Vào Control Panel\User Accounts\Credential Manager->windows credentials -> remove github hiện tại 
